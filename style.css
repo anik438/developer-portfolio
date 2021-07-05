@@ -8,18 +8,18 @@ h1 {
 .style {
   color: orange;
 }
-section{
+.flexible-container{
   display: flex;
   margin-bottom: 150px ;
 }
 
 .half-width{
   width: 50%;
-  padding: 2%;
+  padding: 5%;
   
 }
 .half-width img{
-  width: 80%;
+  width: 100%;
 }
 
 .link-button{
@@ -52,3 +52,36 @@ p{
    font-weight: 700;
    color: whitesmoke;
   }
+  h2{
+    font-size: 30px;
+  }
+  .experience-area h3{
+    color: orange;
+  }
+  .experience-item{
+  box-shadow: 10px 10px 40px  red ;
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 5%;
+  border-radius: 2%;
+  }
+  .experience-area{
+    background-image: url("images/exp-bg.png");
+    background-position: left;
+    background-repeat: no-repeat;
+  }
+  #full-stack{
+    border-image: linear-gradient(purple,  tomato);
+    border-left: 8px solid;
+    border-image-slice: 1;
+  }
+  #baby-web{
+    border-image: linear-gradient(blue, cyan);
+    border-left: 8px solid;
+    border-image-slice: 1;
+  }
+  .bottom-part{
+    text-align: center;
+  }
+  
